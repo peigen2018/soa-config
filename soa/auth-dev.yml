@@ -1,3 +1,15 @@
 tracer:
   property: dev
-
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://master:3306/soa?useUnicode=true&characterEncoding=UTF-8
+    username: peigen
+    password: Peigen123!
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@${eureka.instance.hostname}:8100/eureka/
