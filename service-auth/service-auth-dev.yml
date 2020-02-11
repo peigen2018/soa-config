@@ -1,6 +1,6 @@
 tracer:
   property: dev
-  
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -13,3 +13,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://root:root@${eureka.instance.hostname}:8100/eureka/
+signing:
+  key: dev
