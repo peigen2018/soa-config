@@ -14,4 +14,4 @@ eureka:
     serviceUrl:
       defaultZone: http://root:root@${eureka.instance.hostname}:8100/eureka/
 signing:
-  key: dev
+  key: 123456
