@@ -1,12 +1,12 @@
 tracer:
   property: dev
 
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://master:3306/soa?useUnicode=true&characterEncoding=UTF-8
-    username: peigen
-    password: Peigen123!
+#spring:
+ # datasource:
+ #   driver-class-name: com.mysql.cj.jdbc.Driver
+ #   url: jdbc:mysql://master:3306/soa?useUnicode=true&characterEncoding=UTF-8
+ #   username: peigen
+ #   password: Peigen123!
 eureka:
   instance:
     hostname: localhost
